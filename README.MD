@@ -4,7 +4,7 @@
 
     wget https://github.com/meigwilym/AutoMySQLBackup/archive/master.zip
     unzip master.zip
-    cd AutoMySQLBackup
+    cd AutoMySQLBackup-master
     ./install.sh
     vim /etc/automysqlbackup/myserver.conf
 
