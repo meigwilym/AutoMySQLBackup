@@ -7,3 +7,8 @@
     ./install.sh
     vim /etc/automysqlbackup/myserver.conf
     
+    automysqlbackup "/etc/automysqlbackup/myserver.conf"
+
+cron
+
+    0 2 * * *  automysqlbackup "/etc/automysqlbackup/myserver.conf"
