@@ -7,6 +7,7 @@
     cd AutoMySQLBackup-master
     ./install.sh
     vim /etc/automysqlbackup/myserver.conf
+    mkdir -p /var/backup/db
 
 cron
 
